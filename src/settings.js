@@ -1,7 +1,5 @@
-import variables from '@/styles/element-variables.scss'
-
-export default {
-  theme: variables.theme,
+module.exports = {
+  title: 'Vue Element Admin',
 
   /**
    * @type {boolean} true | false
@@ -28,10 +26,10 @@ export default {
   sidebarLogo: false,
 
   /**
-   * @type {string | array} 'production' | ['production','development']
+   * @type {string | array} 'production' | ['production', 'development']
    * @description Need show err logs component.
    * The default is only used in the production env
-   * If you want to also use it in dev, you can pass ['production','development']
+   * If you want to also use it in dev, you can pass ['production', 'development']
    */
   errorLog: 'production'
 }
